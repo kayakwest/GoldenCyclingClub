@@ -1,0 +1,247 @@
+{
+  "bounds": [
+    -180,
+    -85.05112877980659,
+    180,
+    85.05112877980659
+  ],
+  "center": [
+    0,
+    0,
+    2
+  ],
+  "format": "png",
+  "interactivity": false,
+  "minzoom": 0,
+  "maxzoom": 22,
+  "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+  "Stylesheet": [
+    "style.mss"
+  ],
+  "Layer": [
+    {
+      "geometry": "polygon",
+      "extent": [
+        -136.2374831,
+        48.3098059,
+        -114.865852,
+        60.0068484
+      ],
+      "id": "landuse",
+      "class": "",
+      "Datasource": {
+        "file": "d:\\GoldenCyclingClub\\Working\\british-columbia-latest.shp\\landuse.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "landuse"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -138.2991597,
+        48.3187,
+        -114.071823,
+        60.2477232
+      ],
+      "id": "natural",
+      "class": "",
+      "Datasource": {
+        "file": "d:\\GoldenCyclingClub\\Working\\british-columbia-latest.shp\\natural.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "natural"
+    },
+    {
+      "geometry": "linestring",
+      "extent": [
+        -138.2873567,
+        46.2238466,
+        -114.06904,
+        60.7077508
+      ],
+      "id": "waterways",
+      "class": "",
+      "Datasource": {
+        "file": "d:\\GoldenCyclingClub\\Working\\british-columbia-latest.shp\\waterways.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "waterways"
+    },
+    {
+      "geometry": "linestring",
+      "extent": [
+        -135.3211959,
+        48.3958205,
+        -114.601452,
+        60.1250039
+      ],
+      "id": "railways",
+      "class": "",
+      "Datasource": {
+        "file": "d:\\GoldenCyclingClub\\Working\\british-columbia-latest.shp\\railways.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "railways"
+    },
+    {
+      "geometry": "linestring",
+      "extent": [
+        -136.8708099,
+        48.3094506,
+        -113.999308,
+        60.1501935
+      ],
+      "id": "roads",
+      "class": "",
+      "Datasource": {
+        "file": "d:\\GoldenCyclingClub\\Working\\british-columbia-latest.shp\\roads.shp",
+        "id": "roads",
+        "project": "GoldenCyclingClub",
+        "srs": ""
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "roads"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -136.8547193,
+        48.3095047,
+        -114.7535369,
+        60.0031455
+      ],
+      "id": "buildings",
+      "class": "",
+      "Datasource": {
+        "file": "d:\\GoldenCyclingClub\\Working\\british-columbia-latest.shp\\buildings.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "buildings"
+    },
+    {
+      "geometry": "point",
+      "extent": [
+        -139.0536706,
+        48.2981071,
+        -114.0654018,
+        60.002832
+      ],
+      "id": "points",
+      "class": "",
+      "Datasource": {
+        "file": "d:\\GoldenCyclingClub\\Working\\british-columbia-latest.shp\\points.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "points"
+    },
+    {
+      "geometry": "point",
+      "extent": [
+        -137.912788,
+        48.312113,
+        -114.65,
+        60.1003202
+      ],
+      "id": "places",
+      "class": "",
+      "Datasource": {
+        "file": "d:\\GoldenCyclingClub\\Working\\british-columbia-latest.shp\\places.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "places"
+    },
+    {
+      "geometry": "point",
+      "extent": [
+        -116.996806403,
+        51.23331902800004,
+        -116.88347044099999,
+        51.312710364000054
+      ],
+      "id": "gcc-access",
+      "class": "",
+      "Datasource": {
+        "file": "d:\\GoldenCyclingClub\\Working\\20140409_shp_mapbox\\access.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "gcc-access"
+    },
+    {
+      "geometry": "point",
+      "extent": [
+        -116.99611484999997,
+        51.22749849300004,
+        -116.93062015299995,
+        51.31243671400006
+      ],
+      "id": "gcc-anno",
+      "class": "",
+      "Datasource": {
+        "file": "d:\\GoldenCyclingClub\\Working\\20140409_shp_mapbox\\anno.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "gcc-anno"
+    },
+    {
+      "geometry": "point",
+      "extent": [
+        -116.99580575999994,
+        51.225331519000065,
+        -116.88439368399997,
+        51.30310569800008
+      ],
+      "id": "gcc-labels",
+      "class": "",
+      "Datasource": {
+        "file": "d:\\GoldenCyclingClub\\Working\\20140409_shp_mapbox\\labels.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "gcc-labels"
+    },
+    {
+      "geometry": "linestring",
+      "extent": [
+        -116.99782957299999,
+        51.22462073300005,
+        -116.88009015199995,
+        51.31286834400005
+      ],
+      "id": "gcc-trails",
+      "class": "",
+      "Datasource": {
+        "file": "d:\\GoldenCyclingClub\\Working\\20140409_shp_mapbox\\trails.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "gcc-trails"
+    }
+  ],
+  "scale": 1,
+  "metatile": 2,
+  "_basemap": "",
+  "name": "Golden Cycling Club Trail Map",
+  "description": "Awesome Bike Trails around Golden, British Columbia maintained by the Golden Cycling Club."
+}

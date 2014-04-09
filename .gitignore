@@ -1,7 +1,5 @@
 # app.db
 app.db
 # folders
-./cache
-./export
-
-cache/82945364-10m-admin-0-countries/82945364-10m-admin-0-countries.zip
+cache/**
+export/**
