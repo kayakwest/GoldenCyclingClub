@@ -1,0 +1,46 @@
+#gcc-trails [zoom > 12]{
+  [Rating='Green'] {
+    ::case {
+        line-width: 6;
+        line-color:#e6e6e6;
+		line-cap: round;
+    }
+    ::fill {
+        line-width:3;
+        line-color:#0ebb3f;
+    }
+  }
+  [Rating='Blue'] {
+    ::case {
+        line-width: 6;
+        line-color:#e6e6e6;
+     	line-cap: round;
+    }
+    ::fill {
+        line-width: 2.5;
+        line-color:#1b81ca;
+    }
+  }
+  [Rating='Black'] {
+    ::case {
+        line-width: 6;
+        line-color:#e6e6e6;
+     	line-cap: round;
+    }
+    ::fill {
+        line-width: 3;
+        line-color:#000;
+    }
+  }
+  [Rating='Double Black'] {
+    ::case {
+        line-width: 6;
+        line-color:#e6e6e6;
+    }
+    ::fill {
+		line-color: #000;
+        line-width: 4;
+        line-dasharray: 8, 2;
+    }
+  }  
+}
