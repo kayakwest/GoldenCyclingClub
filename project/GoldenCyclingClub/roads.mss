@@ -1,5 +1,5 @@
 #roads{
-       [zoom < 12]{
+   [zoom < 12]{
 		::case1 [ref = '1']{
                   line-width: 8;
                   line-color:@roadgrey2;
@@ -8,29 +8,36 @@
 		::fill1 [ref = '1']{
                   line-width: 6;
                   line-color:@roadgrey;
-                  line-cap: round;
-                  text-name:"[name]";
+                  line-cap: round; 
+    			  text-name:[name];
                   text-face-name:'Open Sans Regular';
                   text-placement:line;
                   text-fill:#888;
                   text-halo-fill:#000;
                   text-halo-radius:0;
                   text-min-distance:100;
-                  text-size:8;      
+                  text-size:8;
 		}  
 		::case95 [ref = '95']{
                   line-width: 8;
                   line-color:@roadgrey2;
                   line-cap: round;
-		}
+		} 
 		::fill95 [ref = '95']{
                   line-width: 6;
                   line-color:@roadgrey;
                   line-cap: round;
-                  }
-		}
-       [zoom > 11]{
-
+    			  text-name:[name];
+                  text-face-name:'Open Sans Regular';
+                  text-placement:line;
+                  text-fill:#888;
+                  text-halo-fill:#000;
+                  text-halo-radius:0;
+                  text-min-distance:100;
+                  text-size:8;
+        }
+ 	}
+       [zoom > 11]{     
 		::footway [type="footway"]{
 			::case {
 			line-width: 3;
@@ -52,7 +59,7 @@
     		::fill {
 			line-width: 2;
           	line-color:@roadgrey;
-          	line-cap: round;        
+          	line-cap: round 
 			}
     	}      
 		::service [type="service"]{
@@ -165,6 +172,41 @@
           	line-color:@roadgrey;
           	line-cap: round;        
 			}
-    	}
-	}
-}
+    	}   
+		::labels [type!="path"] [zoom > 13]{
+    		text-name:[name];
+            text-face-name:'Open Sans Regular';
+            text-placement:line;
+            text-fill:#888;
+            text-halo-fill:#000;
+            text-halo-radius:0;
+            text-min-distance:100;
+            text-size:9;
+     		}         
+		::labels [type="trunk"][zoom > 11][zoom < 14]{
+    		text-name:[name];
+            text-face-name:'Open Sans Regular';
+            text-placement:line;
+            text-fill:#888;
+            text-halo-fill:#000;
+            text-halo-radius:0;
+            text-min-distance:100;
+            text-size:8;
+     		}    
+		::labels [type="primary"][zoom > 11][zoom < 14]{
+    		text-name:[name];
+            text-face-name:'Open Sans Regular';
+            text-placement:line;
+            text-fill:#888;
+            text-halo-fill:#000;
+            text-halo-radius:0;
+            text-min-distance:100;
+            text-size:8;
+     		}      
+    	}         
+    }
+
+
+
+
+
