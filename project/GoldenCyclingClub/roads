@@ -9,6 +9,14 @@
                   line-width: 6;
                   line-color:@roadgrey;
                   line-cap: round;
+                  text-name:"[ref]";
+                  text-face-name:'Open Sans Regular';
+                  text-placement:line;
+                  text-fill:#000;
+                  text-halo-fill:#000;
+                  text-halo-radius:1;
+                  text-min-distance:60;
+                  text-size:10;      
 		}  
 		::case95 [ref = '95']{
                   line-width: 8;

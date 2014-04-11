@@ -43,6 +43,24 @@
     {
       "geometry": "polygon",
       "extent": [
+        -0.0010536915767727134,
+        0.00045913648330926806,
+        -0.001047415754001503,
+        0.0004624465164125923
+      ],
+      "id": "trees",
+      "class": "",
+      "Datasource": {
+        "file": "d:\\GoldenCyclingClub\\Working\\canvec_140410_193026_shp\\trees.shp"
+      },
+      "srs-name": "900913",
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+      "advanced": {},
+      "name": "trees"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
         -138.29915969999996,
         48.318699999999986,
         -114.07182299999998,
@@ -93,7 +111,10 @@
       "id": "railways",
       "class": "",
       "Datasource": {
-        "file": "d:\\GoldenCyclingClub\\Working\\british-columbia-latest.shp\\railways.shp"
+        "file": "d:\\GoldenCyclingClub\\Working\\british-columbia-latest.shp\\railways.shp",
+        "id": "railways",
+        "project": "GoldenCyclingClub",
+        "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over"
       },
       "srs-name": "900913",
       "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
@@ -196,8 +217,7 @@
       "srs-name": "900913",
       "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
       "advanced": {},
-      "name": "gcc-access",
-      "status": "off"
+      "name": "gcc-access"
     },
     {
       "geometry": "point",
@@ -215,8 +235,7 @@
       "srs-name": "900913",
       "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
       "advanced": {},
-      "name": "gcc-anno",
-      "status": "off"
+      "name": "gcc-anno"
     },
     {
       "geometry": "point",
@@ -260,6 +279,24 @@
       "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
       "advanced": {},
       "name": "gcc-trails"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -117.2964097795,
+        51.11083952694946,
+        -116.59778838430002,
+        51.47931072695212
+      ],
+      "id": "rivers",
+      "class": "",
+      "Datasource": {
+        "file": "d:\\GoldenCyclingClub\\Working\\canvec_140410_193026_shp\\rivers.shp"
+      },
+      "srs-name": "900913",
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+      "advanced": {},
+      "name": "rivers"
     }
   ],
   "scale": 1,

@@ -32,7 +32,7 @@
 
 
 #natural 
-  [type="water"]{
+  [type!="water"]{
   line-color:#055274;
   line-width:0.3;
   polygon-opacity:0.6;
@@ -74,14 +74,14 @@
   	}
   ::hatch {
     line-width: 4;
+    line-color: #cccccc;     
     line-dasharray: 1, 24;
   	}
 }
 
-
-#waterways 
-  [type="river"]{
-  line-width:2;
+//  [type!="river"]
+#waterways{
+  line-width:0.2;
   line-color:#168;
 }
 
@@ -108,9 +108,15 @@
   marker-line-color:#813;
   marker-allow-overlap:true;
 }
+#rivers {
+  polygon-opacity:0.8;
+  polygon-fill:#055274;
+}
 
 
-
-
-
-
+#trees {
+  line-color:#594;
+  line-width:0.5;
+  polygon-opacity:1;
+  polygon-fill:#ae8;
+}
