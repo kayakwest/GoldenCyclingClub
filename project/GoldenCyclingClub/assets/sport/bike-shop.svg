@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.2.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1"
+	 id="svg2" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:svg="http://www.w3.org/2000/svg" sodipodi:docname="amenity_camping.svg" sodipodi:version="0.32" inkscape:output_extension="org.inkscape.output.svg.inkscape" inkscape:version="0.46" sodipodi:docbase="s:\Data\FacilityIcons"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="580px" height="580px"
+	 viewBox="0 0 580 580" enable-background="new 0 0 580 580" xml:space="preserve">
+<sodipodi:namedview  borderopacity="1.0" gridtolerance="10.0" objecttolerance="10.0" guidetolerance="10.0" bordercolor="#666666" pagecolor="#ffffff" inkscape:zoom="0.65172414" inkscape:cx="209.39659" inkscape:cy="290" showgrid="false" id="base" inkscape:window-width="853" inkscape:window-height="675" inkscape:current-layer="svg2" inkscape:window-y="88" inkscape:window-x="91" inkscape:pageopacity="0.0" inkscape:pageshadow="2">
+	</sodipodi:namedview>
+<defs>
+	
+	
+		<inkscape:perspective  sodipodi:type="inkscape:persp3d" inkscape:vp_x="0 : 290 : 1" inkscape:vp_y="0 : 1000 : 0" inkscape:vp_z="580 : 290 : 1" id="perspective2441" inkscape:persp3d-origin="290 : 193.33333 : 1">
+		</inkscape:perspective>
+</defs>
+<g id="g1327">
+	<path id="path1329" fill="#111111" stroke="#EEEEEE" stroke-width="3.408" d="M64.347,1.768c-41.335,0-64.571,21.371-64.571,65.036
+		v450.123c0,40.845,20.895,62.229,62.192,62.229h452.024c41.307,0,62.229-20.315,62.229-62.229V66.804
+		c0-42.601-20.923-65.036-63.521-65.036C512.696,1.768,64.205,1.625,64.347,1.768z"/>
+</g>
+<path fill="#FFFFFF" d="M247.979,86.807c1.867,1.958,2.647,4.893,2.003,7.523l-11.523,46.785l-0.14,0.689
+	c-2.1,12.872-6.751,23.801-7.143,32.605c102.173,100.189,204.329,200.344,306.485,300.552c0.103,0.088,0.181,0.188,0.279,0.277
+	c19.998,18.133,17.82,50.059-0.795,67.797l0.035,0.034c-0.1,0.112-0.212,0.2-0.31,0.309c-0.084,0.079-0.158,0.163-0.243,0.24
+	l-0.033-0.034c-17.466,18.771-48.56,20.159-67.073,1.659c-0.084-0.08-0.164-0.161-0.241-0.241
+	c-70.44-76.298-139.497-153.834-209.329-230.512c-0.009-0.013-0.025-0.025-0.036-0.034c-27.396-29.562-53.593-60.363-81.112-88.639
+	c-25.815,2.998-52.295,8.888-79.149,12.974c-3.043,0.478-6.301-0.955-8.004-3.52l-66.42-99.609
+	c-2.074-3.131-1.567-7.715,1.14-10.317l24.083-23.254c3.031-2.922,8.43-2.856,11.385,0.138
+	c19.354,19.409,37.603,39.948,56.757,57.999c12.121-2.471,24.472-5.708,35.986-9.625c4.377-11.358,8.004-23.737,10.869-35.711
+	c-17.954-20.326-38.217-39.678-57.413-60.173c-2.886-3.064-2.755-8.465,0.276-11.386l26.326-25.497
+	c2.653-2.556,7.131-2.937,10.178-0.863l101.817,68.694C247.122,85.999,247.575,86.38,247.979,86.807L247.979,86.807z"/>
+</svg>
