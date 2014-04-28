@@ -1,25 +1,25 @@
 {
   "bounds": [
-    -117.014,
-    51.2161,
-    -116.8733,
-    51.3213
+    -117.0884,
+    51.1989,
+    -116.7907,
+    51.3389
   ],
   "center": [
-    -116.9395,
-    51.2702,
-    12
+    -116.9487,
+    51.2677,
+    13
   ],
   "format": "png",
   "interactivity": {
     "layer": "gcc-trails",
-    "template_teaser": "{{{name}}}",
-    "template_full": "{{{name}}} -\n{{{rating}}} -  \n{{{maparea}}}",
+    "template_teaser": "{{{name}}} -  {{{rating}}}",
+    "template_full": "Name - {{{name}}}\nRating - {{{rating}}}\nLength - {{{km}}}\nArea - {{{maparea}}} ",
     "fields": [
-      "Name",
-      "Number",
-      "Distance",
-      "MapArea"
+      "name",
+      "rating",
+      "km",
+      "maparea"
     ],
     "template_location": ""
   },
@@ -76,6 +76,28 @@
       "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
       "advanced": {},
       "name": "natural"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -117.23838212875292,
+        51.11262774753644,
+        -116.62536279571692,
+        51.47930949875625
+      ],
+      "Datasource": {
+        "type": "sqlite",
+        "file": "c:\\Users\\spencer\\Documents\\GitHub\\GoldenCyclingClub\\project\\GoldenCyclingClub\\db\\golden-canvec.sqlite",
+        "table": "wetlands",
+        "attachdb": "",
+        "extent": ""
+      },
+      "id": "wetlands",
+      "class": "",
+      "srs-name": "900913",
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+      "advanced": {},
+      "name": "wetlands"
     },
     {
       "geometry": "polygon",
@@ -156,7 +178,10 @@
         "file": "db\\golden-canvec.sqlite",
         "table": "contours",
         "attachdb": "",
-        "extent": ""
+        "extent": "",
+        "id": "contours",
+        "project": "GoldenCyclingClub",
+        "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over"
       },
       "id": "contours",
       "class": "",
@@ -371,7 +396,7 @@
     }
   ],
   "scale": 1,
-  "metatile": 6,
+  "metatile": 4,
   "_basemap": "",
   "name": "Golden Cycling Club Trail Map",
   "description": "Awesome Bike Trails around Golden, British Columbia maintained by the Golden Cycling Club.",

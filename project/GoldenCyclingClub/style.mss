@@ -6,7 +6,7 @@
 @pond: #A7DBD8;
 
 #buildings [zoom > 14][ {
-  line-color:#F38630;
+  line-color:#ff851a;
   line-opacity:0.2;
   polygon-opacity:0.2;
   polygon-fill:#ccc;
@@ -102,10 +102,10 @@
   line-width:0.2;
   line-color:#888;
   line-opacity:1;  
-  text-name:'[elevation]';
-  text-face-name: 'Open Sans Regular';
+  text-name:'[elevationm]';
+  text-face-name: 'Arial Regular';
   text-fill: #888;
-  text-size: 6;
+  text-size: 8;
   text-placement: line;
   text-dy: -4;
   text-max-char-angle-delta: 15;

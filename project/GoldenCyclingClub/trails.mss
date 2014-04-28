@@ -7,6 +7,7 @@
         text-face-name: 'Open Sans Regular';
         text-fill: #594;
         text-size: 10;
+            [zoom>=16] {text-size: 12; }             
         text-placement: line;
         text-dy: 8;
         text-max-char-angle-delta: 15;
@@ -26,10 +27,11 @@
         text-face-name: 'Open Sans Regular';
         text-fill: #15758B;
         text-size: 10;
+            [zoom>=16] {text-size: 12; }      
         text-placement: line;
         text-dy: 8;
         text-max-char-angle-delta: 15;
-        text-min-distance:300;               
+        text-min-distance:100;               
       }
       ::dash {
         line-color: #15758B;
@@ -45,6 +47,7 @@
         text-face-name: 'Open Sans Regular';
         text-fill: #000;
         text-size: 10;
+            [zoom>=16] {text-size: 12; }      
         text-placement: line;
         text-dy: 8;
         text-max-char-angle-delta: 15;
@@ -64,6 +67,7 @@
         text-face-name: 'Open Sans Regular';
         text-fill: #000;
         text-size: 10;
+            [zoom>=16] {text-size: 12; }            
         text-placement: line;
         text-dy: 5;
    	    text-max-char-angle-delta: 15;
@@ -91,6 +95,7 @@
   	text-name:'[maparea]';
     text-face-name: 'Open Sans Regular';
     text-size: 13;
+            [zoom<=12] {text-size: 10; }        
     text-fill: #888;
     text-wrap-width: 60;
     text-wrap-before: true;
@@ -125,17 +130,18 @@
 #dividers [zoom > 13][zoom < 16]{
       ::case {
         line-width: 3;
+        line-opacity: 0.5;    
         line-color: #fff;
       }
       ::dash {
-        line-color: #F38630;
+        line-color: #ff851a;
         line-width: 1;
         line-dasharray: 1, 1;     
     	}
         ::label1 {
     	text-name: [label1];
         text-face-name: 'Open Sans Regular';
-        text-fill: #F38630;
+        text-fill: #ff851a;
     	text-opacity: 0.8;    
   		text-halo-radius: 1;        
   		text-halo-fill: #fff;      
@@ -149,7 +155,7 @@
         ::label2 {
     	text-name: [label2];
         text-face-name: 'Open Sans Regular';
-        text-fill: #F38630;
+        text-fill: #ff851a;
     	text-opacity: 0.8;    
   		text-halo-radius: 1;        
   		text-halo-fill: #fff;    
@@ -167,14 +173,14 @@
         line-color: #fff;
       }
       ::dash {
-        line-color: #F38630;
+        line-color: #ff851a;
         line-width: 2;
         line-dasharray: 1, 1;     
     	}
         ::label1 {
     	text-name: [label1];
         text-face-name: 'Open Sans Regular';
-        text-fill: #F38630;
+        text-fill: #ff851a;
     	text-opacity: 0.8;
   		text-halo-radius: 1;        
   		text-halo-fill: #fff;      
@@ -188,7 +194,7 @@
         ::label2 {
     	text-name: [label2];
         text-face-name: 'Open Sans Regular';
-        text-fill: #F38630;
+        text-fill: #ff851a;
     	text-opacity: 0.8;    
   		text-halo-radius: 1;        
   		text-halo-fill: #fff;      
