@@ -3,3 +3,4 @@ app.db
 # folders
 cache/**
 export/**
+project/GoldenCyclingClub/rasters/**

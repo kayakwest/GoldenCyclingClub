@@ -4,10 +4,16 @@
         line-width: 5;
         line-color: #fff;
         text-name: [name];
-        text-face-name: 'Open Sans Regular';
+        text-face-name: 'Verdana Bold';
+      	text-halo-radius: 1;
+        text-halo-fill: #fff;      
         text-fill: #594;
-        text-size: 10;
-            [zoom>=16] {text-size: 12; }             
+        text-size: 8;
+            [zoom=14] {text-size: 8; }           
+            [zoom=15] {text-size: 10; }           
+            [zoom=16] {text-size: 12; }             
+            [zoom=17] {text-size: 13; }   
+            [zoom=18] {text-size: 14; }          
         text-placement: line;
         text-dy: 8;
         text-max-char-angle-delta: 15;
@@ -24,10 +30,16 @@
         line-width: 5;
         line-color: #fff;
         text-name: [name];
-        text-face-name: 'Open Sans Regular';
+        text-face-name: 'Verdana Bold';
         text-fill: #15758B;
-        text-size: 10;
-            [zoom>=16] {text-size: 12; }      
+        text-halo-fill: #fff;
+      	text-halo-radius: 1;
+        text-size: 8;
+            [zoom=14] {text-size: 8; }           
+            [zoom=15] {text-size: 10; }           
+            [zoom=16] {text-size: 12; }             
+            [zoom=17] {text-size: 13; }   
+            [zoom=18] {text-size: 14; }       
         text-placement: line;
         text-dy: 8;
         text-max-char-angle-delta: 15;
@@ -44,14 +56,20 @@
         line-width: 5;
         line-color: #fff;
         text-name: [name];
-        text-face-name: 'Open Sans Regular';
+        text-face-name: 'Verdana Bold';
         text-fill: #000;
-        text-size: 10;
-            [zoom>=16] {text-size: 12; }      
+      	text-halo-radius: 1;
+        text-halo-fill: #fff;
+        text-size: 8;
+            [zoom=14] {text-size: 8; }           
+            [zoom=15] {text-size: 10; }           
+            [zoom=16] {text-size: 12; }             
+            [zoom=17] {text-size: 13; }   
+            [zoom=18] {text-size: 14; }   
         text-placement: line;
-        text-dy: 8;
-        text-max-char-angle-delta: 15;
-        text-min-distance:300;               
+        text-dy: -8;
+        text-max-char-angle-delta: 40;
+        text-min-distance:100;         
       }
       ::dash {
         line-color: #000;
@@ -61,22 +79,28 @@
   }
   [rating='Double Black'] {
       ::line {
-        line-width: 2.5;
-        line-color: #c00e0e;
+        line-width: 3;
+        line-color: #000;
         text-name: [name];
-        text-face-name: 'Open Sans Regular';
+        text-face-name: 'Verdana Bold';
         text-fill: #000;
-        text-size: 10;
-            [zoom>=16] {text-size: 12; }            
+        text-halo-fill: #fff;
+      	text-halo-radius: 1;
+        text-size: 8;
+            [zoom=14] {text-size: 8; }           
+            [zoom=15] {text-size: 10; }           
+            [zoom=16] {text-size: 12; }             
+            [zoom=17] {text-size: 13; }   
+            [zoom=18] {text-size: 14; }    
         text-placement: line;
-        text-dy: 5;
+        text-dy: 6;
    	    text-max-char-angle-delta: 15;
         text-min-distance:300;               
       }
       ::dash {
-        line-color: #000;
+        line-color: #fff;
         line-width: 2.5;
-        line-dasharray: 8, 8;     
+        line-dasharray: 6, 20;     
     }
   }  
 }
@@ -128,11 +152,6 @@
     text-placements: "S,N,NE,E";
 }
 #dividers [zoom > 13][zoom < 16]{
-      ::case {
-        line-width: 3;
-        line-opacity: 0.5;    
-        line-color: #fff;
-      }
       ::dash {
         line-color: #ff851a;
         line-width: 1;
@@ -140,11 +159,9 @@
     	}
         ::label1 {
     	text-name: [label1];
-        text-face-name: 'Open Sans Regular';
+        text-face-name: 'Verdana Regular';
         text-fill: #ff851a;
-    	text-opacity: 0.8;    
-  		text-halo-radius: 1;        
-  		text-halo-fill: #fff;      
+    	text-opacity: 0.8;          
         text-size: 8;
         text-placement: line;
         text-dy: -5;
@@ -154,11 +171,9 @@
     	}
         ::label2 {
     	text-name: [label2];
-        text-face-name: 'Open Sans Regular';
+        text-face-name: 'Verdana Regular';
         text-fill: #ff851a;
     	text-opacity: 0.8;    
-  		text-halo-radius: 1;        
-  		text-halo-fill: #fff;    
         text-size: 8;
         text-placement: line;
         text-dy: 5;
@@ -168,10 +183,6 @@
     	}  
 }  
 #dividers [zoom > 15]{
-      ::case {
-        line-width: 6;
-        line-color: #fff;
-      }
       ::dash {
         line-color: #ff851a;
         line-width: 2;
@@ -179,11 +190,9 @@
     	}
         ::label1 {
     	text-name: [label1];
-        text-face-name: 'Open Sans Regular';
+        text-face-name: 'Verdana Regular';
         text-fill: #ff851a;
-    	text-opacity: 0.8;
-  		text-halo-radius: 1;        
-  		text-halo-fill: #fff;      
+    	text-opacity: 0.8;   
         text-size: 10;
         text-placement: line;
         text-dy: -7;
@@ -193,11 +202,9 @@
     	}
         ::label2 {
     	text-name: [label2];
-        text-face-name: 'Open Sans Regular';
+        text-face-name: 'Verdana Regular';
         text-fill: #ff851a;
-    	text-opacity: 0.8;    
-  		text-halo-radius: 1;        
-  		text-halo-fill: #fff;      
+    	text-opacity: 0.8;        
         text-size: 10;
         text-placement: line;
         text-dy: 7;
@@ -206,5 +213,3 @@
    		text-allow-overlap: true;    
     	}    
 }  
-
-

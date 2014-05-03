@@ -5,23 +5,25 @@
 @rivers: #69D2E7;
 @pond: #A7DBD8;
 
+Map {
+    buffer-size: 256;
+    background-color: #fff;
+}
 #buildings [zoom > 14][ {
-  line-color:#ff851a;
+  line-color:#2b2b2b;
   line-opacity:0.2;
   polygon-opacity:0.2;
   polygon-fill:#ccc;
 	[zoom > 15][name!="Golden Hospital"]::text{ 
     text-name:'[name]';
-    text-face-name: 'Adobe Arabic Bold';
-    text-size: 12;
+    text-face-name: 'Verdana Regular';
+    text-size: 8;
     text-fill: #888;
-    text-wrap-width: 60;
+    text-wrap-width: 30;
     text-wrap-before: true;
     text-min-distance: 14;
     text-placement-type: simple;
     text-placements: "N,S,E,W,NE,SE,NW,SW";
-    text-dy: 8;
-    text-dx: 10;
 	}
 }
 
@@ -104,8 +106,12 @@
   line-opacity:1;  
   text-name:'[elevationm]';
   text-face-name: 'Arial Regular';
-  text-fill: #888;
+  text-fill: #777;
   text-size: 8;
+  	[zoom=15] {text-size: 9; }  
+	[zoom=16] {text-size: 12; }             
+	[zoom=17] {text-size: 13; }   
+	[zoom=18] {text-size: 14; }         
   text-placement: line;
   text-dy: -4;
   text-max-char-angle-delta: 15;
@@ -126,3 +132,18 @@
   }
 }
 
+#dem-hill {
+    raster-opacity:0.2;  
+    raster-scaling: bilinear;
+    raster-comp-op: lighten;
+}
+
+#dem_color {
+  raster-opacity:0.4;
+  raster-comp-op: multiply;
+  
+}
+
+#dem-slope {
+  raster-opacity:1;
+}

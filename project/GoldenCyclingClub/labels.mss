@@ -5,11 +5,9 @@
   marker-file: url(assets/accommodation/camping2.svg);
   marker-allow-overlap:true;
   text-name:'[label]';
-  text-face-name: 'Open Sans Regular';
+  text-face-name: 'Verdana Regular';
   text-size: 8;
-  text-fill: #888;
-  text-halo-radius: 1;        
-  text-halo-fill: #fff;      
+  text-fill: #888;    
   text-wrap-width: 50;
   text-wrap-before: true;
   text-placement-type: simple;
@@ -23,11 +21,12 @@
   marker-allow-overlap:true;
      [zoom>14]{
   text-name:'[label]';
-  text-face-name: 'Open Sans Regular';
+  text-face-name: 'Verdana Regular';
   text-size: 8;
-  text-fill: #888;
-  text-halo-radius: 1;        
-  text-halo-fill: #fff;       
+      [zoom=16] {text-size: 9; }
+      [zoom=17] {text-size: 10; }
+      [zoom=18] {text-size: 11; }        
+  text-fill: #888;      
   text-wrap-width: 60;
   text-wrap-before: true;
   text-placement-type: simple;
@@ -41,14 +40,12 @@
   marker-file: url(assets/health/hospital_emergency3.svg);
   marker-allow-overlap:true;   
   text-name:'[label]';
-  text-face-name: 'Open Sans Regular';
+  text-face-name: 'Verdana Regular';
   	text-size: 8;
       [zoom=16] {text-size: 9; }
       [zoom=17] {text-size: 10; }
       [zoom=18] {text-size: 11; }  
-  text-fill: #888;
-  text-halo-radius: 1;        
-  text-halo-fill: #fff;       
+  text-fill: #888;      
   text-wrap-width: 60;
   text-wrap-before: true;
   text-placement-type: simple;
@@ -57,18 +54,16 @@
   }    
   ::smalltrailhead [type = "smalltrailhead"] {
   marker-width:20;
-  marker-opacity:0.6;  
+  marker-opacity:0.8;  
   marker-file: url(assets/transport/parking_bicycle7.svg);
   marker-allow-overlap:true;    
   text-name:'[label]';
-  text-face-name: 'Open Sans Regular';
+  text-face-name: 'Verdana Regular';
   	text-size: 8;
       [zoom=16] {text-size: 9; }
       [zoom=17] {text-size: 10; }
       [zoom=18] {text-size: 11; } 
-  text-fill: #888;
-  text-halo-radius: 1;        
-  text-halo-fill: #fff;       
+  text-fill: #2b2b2b;    
   text-wrap-width: 40;
   text-wrap-before: true;
   text-placement-type: simple;
@@ -77,20 +72,18 @@
   }      
   ::trailhead [type = "trailhead"] {
   marker-width:30;
-  marker-opacity:0.6;  
+  marker-opacity:0.8;  
   marker-file: url(assets/transport/parking_bicycle7.svg);
   marker-allow-overlap:true;    
   text-name:'[label]';
-  text-face-name: 'Open Sans Regular';
-  	text-size: 9;
+  text-face-name: 'Verdana Bold';
+  	text-size: 10;
       [zoom=16] {text-size: 10; }
       [zoom=17] {text-size: 11; }
-      [zoom=18] {text-size: 12; }   
-  text-halo-radius: 1;     
+      [zoom=18] {text-size: 12; }      
 //  text-opacity:0.6;
-  text-fill: #888;    
-  text-halo-fill: #fff;    
-  text-wrap-width: 70;
+  text-fill: #2b2b2b;    
+  text-wrap-width: 90;
   text-wrap-before: true;
   text-placement-type: simple;
   text-dy: 20;
@@ -102,14 +95,12 @@
   marker-file: url(assets/barrier/gate3.svg);
   marker-allow-overlap:true;    
   text-name:'[label]';
-  text-face-name: 'Open Sans Regular';
+  text-face-name: 'Verdana Regular';
   	text-size: 8;
       [zoom=16] {text-size: 9; }
       [zoom=17] {text-size: 10; }
       [zoom=18] {text-size: 11; }
-  text-fill: #888;
-  text-halo-radius: 1;        
-  text-halo-fill: #fff;       
+  text-fill: #888;      
   text-wrap-width: 50;
   text-wrap-before: true;
   text-placement-type: simple;
@@ -142,14 +133,12 @@
   marker-file: url(assets/barrier/gate3.svg);
   marker-allow-overlap:true;    
   text-name:'[label]';
-  text-face-name: 'Open Sans Regular';
+  text-face-name: 'Verdana Regular';
   	text-size: 8;
       [zoom=16] {text-size: 9; }
       [zoom=17] {text-size: 10; }
       [zoom=18] {text-size: 11; }    
-  text-fill: #888;
-  text-halo-radius: 1;        
-  text-halo-fill: #fff;       
+  text-fill: #888;     
   text-wrap-width: 50;
   text-wrap-before: true;
   text-placement-type: simple;
@@ -165,15 +154,13 @@
   marker-fill: #ff851a;   
   marker-line-color: #ff851a;
   text-name:'[label]';
-  text-face-name: 'Open Sans Regular';
+  text-face-name: 'Verdana Regular';
   	text-size: 8;
-      [zoom=16] {text-size: 9; }
-      [zoom=17] {text-size: 10; }
-      [zoom=18] {text-size: 11; }    
+      [zoom=16] {text-size: 10; }
+      [zoom=17] {text-size: 12; }
+      [zoom=18] {text-size: 14; }    
   text-fill: #ff851a;
-  text-opacity: 1;
-  text-halo-radius: 1;        
-  text-halo-fill: #fff;       
+  text-opacity: 1;      
   text-wrap-width: 40;
   text-wrap-before: true;
   text-placement-type: simple;
@@ -189,15 +176,13 @@
   marker-file: url(assets/direction/downright.svg);
   marker-allow-overlap:true;    
   text-name:'[label]';
-  text-face-name: 'Open Sans Regular';
+  text-face-name: 'Verdana Regular';
   	text-size: 8;
       [zoom=16] {text-size: 9; }
       [zoom=17] {text-size: 10; }
       [zoom=18] {text-size: 11; }
   text-fill: #ff851a;
-  text-opacity: 1;
-  text-halo-radius: 1;        
-  text-halo-fill: #fff;       
+  text-opacity: 1;       
   text-wrap-width: 50;
             [zoom=16] {text-wrap-width: 60; }   
             [zoom=17] {text-wrap-width: 70; }  
@@ -219,15 +204,13 @@
   marker-allow-overlap:true;    
   marker-transform:rotate(45,45,45);  
   text-name:'[label]';
-  text-face-name: 'Open Sans Regular';
+  text-face-name: 'Verdana Regular';
   	text-size: 8;
       [zoom=16] {text-size: 9; }
       [zoom=17] {text-size: 10; }
       [zoom=18] {text-size: 11; }
   text-fill: #ff851a;
-  text-opacity: 1;
-  text-halo-radius: 1;        
-  text-halo-fill: #fff;       
+  text-opacity: 1;   
   text-wrap-width: 50;
   text-wrap-before: true;
   text-placement-type: simple;
@@ -243,15 +226,13 @@
   marker-file: url(assets/direction/right.svg);
   marker-allow-overlap:true;    
   text-name:'[label]';
-  text-face-name: 'Open Sans Regular';
+  text-face-name: 'Verdana Regular';
   	text-size: 8;
       [zoom=16] {text-size: 9; }
       [zoom=17] {text-size: 10; }
       [zoom=18] {text-size: 11; }
   text-fill: #ff851a;
-  text-opacity: 1;
-  text-halo-radius: 1;        
-  text-halo-fill: #fff;       
+  text-opacity: 1;    
   text-wrap-width: 50;
   text-wrap-before: true;
   text-placement-type: simple;
@@ -269,15 +250,13 @@
   marker-file: url(assets/direction/up.svg);
   marker-allow-overlap:true;    
   text-name:'[label]';
-  text-face-name: 'Open Sans Regular';
+  text-face-name: 'Verdana Regular';
   	text-size: 8;
       [zoom=16] {text-size: 9; }
       [zoom=17] {text-size: 10; }
       [zoom=18] {text-size: 11; }
   text-fill: #ff851a;
-  text-opacity: 1;
-  text-halo-radius: 1;        
-  text-halo-fill: #fff;       
+  text-opacity: 1;           
   text-wrap-width: 50;
   text-wrap-before: true;
   text-placement-type: simple;
@@ -295,15 +274,13 @@
   marker-file: url(assets/direction/upleft.svg);
   marker-allow-overlap:true;    
   text-name:'[label]';
-  text-face-name: 'Open Sans Regular';
+  text-face-name: 'Verdana Regular';
   	text-size: 8;
       [zoom=16] {text-size: 9; }
       [zoom=17] {text-size: 10; }
       [zoom=18] {text-size: 11; }
   text-fill: #ff851a;
-  text-opacity: 1;
-  text-halo-radius: 1;        
-  text-halo-fill: #fff;       
+  text-opacity: 1;   
   text-wrap-width: 40;
   text-wrap-before: true;
   text-placement-type: simple;
@@ -321,15 +298,13 @@
   marker-file: url(assets/direction/downleft.svg);
   marker-allow-overlap:true;    
   text-name:'[label]';
-  text-face-name: 'Open Sans Regular';
+  text-face-name: 'Verdana Regular';
   	text-size: 8;
       [zoom=16] {text-size: 9; }
       [zoom=17] {text-size: 10; }
       [zoom=18] {text-size: 11; }
   text-fill: #ff851a;
-  text-opacity: 1;
-  text-halo-radius: 1;        
-  text-halo-fill: #fff;       
+  text-opacity: 1;    
   text-wrap-width: 40;
   text-wrap-before: true;
   text-placement-type: simple;
@@ -347,15 +322,13 @@
   marker-file: url(assets/direction/twoway2.svg);
   marker-allow-overlap:true;    
   text-name:'[label]';
-  text-face-name: 'Open Sans Regular';
+  text-face-name: 'Verdana Regular';
   	text-size: 8;
       [zoom=16] {text-size: 9; }
       [zoom=17] {text-size: 10; }
       [zoom=18] {text-size: 11; }
   text-fill: #ff851a;
-  text-opacity: 1;
-  text-halo-radius: 1;        
-  text-halo-fill: #fff;       
+  text-opacity: 1;      
   text-wrap-width: 20;
   text-wrap-before: true;
   text-placement-type: simple;
@@ -373,15 +346,13 @@
   marker-file: url(assets/direction/twoway2b.svg);
   marker-allow-overlap:true;    
   text-name:'[label]';
-  text-face-name: 'Open Sans Regular';
+  text-face-name: 'Verdana Regular';
   	text-size: 8;
       [zoom=16] {text-size: 9; }
       [zoom=17] {text-size: 10; }
       [zoom=18] {text-size: 11; }
   text-fill: #ff851a;
-  text-opacity: 1;
-  text-halo-radius: 1;        
-  text-halo-fill: #fff;       
+  text-opacity: 1;    
   text-wrap-width: 40;
             [zoom=17] {text-wrap-width: 50; }  
             [zoom=18] {text-wrap-width: 60; }     
@@ -401,15 +372,13 @@
   marker-file: url(assets/direction/twoway3.svg);
   marker-allow-overlap:true;    
   text-name:'[label]';
-  text-face-name: 'Open Sans Regular';
+  text-face-name: 'Verdana Regular';
   	text-size: 8;
       [zoom=16] {text-size: 9; }
       [zoom=17] {text-size: 10; }
       [zoom=18] {text-size: 11; }
   text-fill: #ff851a;
-  text-opacity: 1;
-  text-halo-radius: 1;        
-  text-halo-fill: #fff;       
+  text-opacity: 1;     
   text-wrap-width: 50;
   text-wrap-before: true;
   text-placement-type: simple;
