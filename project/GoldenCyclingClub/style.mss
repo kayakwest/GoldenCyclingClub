@@ -78,7 +78,7 @@ Map {
 
 #natural [type="park"]{
   polygon-opacity:0.2;
-  polygon-fill:#594;
+  polygon-fill:#348d08;
 }
 #natural [type="park"][zoom > 13] {
   	text-name:'[name]';

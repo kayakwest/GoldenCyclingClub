@@ -7,7 +7,7 @@
         text-face-name: 'Verdana Bold';
       	text-halo-radius: 1;
         text-halo-fill: #fff;      
-        text-fill: #594;
+        text-fill: #348d08;
         text-size: 8;
             [zoom=14] {text-size: 8; }           
             [zoom=15] {text-size: 10; }           
@@ -20,7 +20,7 @@
         text-min-distance:300;               
       }
       ::dash {
-        line-color: #594;
+        line-color: #348d08;
         line-width: 2.5;
         line-dasharray: 8, 2;      
     }
@@ -153,7 +153,7 @@
 }
 #dividers [zoom > 13][zoom < 16]{
 	::case {
-		line-width: 3;
+		line-width: 2;
 		line-opacity: 0.5;    
 		line-color: #D1DFDB;
 		}  
@@ -193,8 +193,8 @@
 }  
 #dividers [zoom > 15]{
 	::case {
-		line-width: 3;
-		line-opacity: 0;    
+		line-width: 4;
+		line-opacity: 1;    
 		line-color: #D1DFDB;
 		}    
       ::dash {

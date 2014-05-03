@@ -64,12 +64,12 @@
     	}      
 		::service [type="service"]{
 			::case {
-			line-width: 4;
+			line-width: 5;
 			line-color:@roadgrey2;
 			line-cap: round;
     		}
     		::fill {
-			line-width: 3;
+			line-width: 4;
           	line-color:@roadgrey;
           	line-cap: round;        
 			}

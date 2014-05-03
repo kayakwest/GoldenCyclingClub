@@ -77,19 +77,24 @@
   marker-allow-overlap:true;    
   text-name:'[label]';
   text-face-name: 'Verdana Bold';
-  	text-size: 10;
+  	text-size: 9;
       [zoom=16] {text-size: 10; }
-      [zoom=17] {text-size: 11; }
-      [zoom=18] {text-size: 12; }      
+      [zoom=17] {text-size: 12; }
+      [zoom=18] {text-size: 13; }      
 //  text-opacity:0.6;
   text-fill: #2b2b2b;    
   text-wrap-width: 90;
   text-wrap-before: true;
   text-placement-type: simple;
   text-dy: 20;
-  text-placements: "S,N,NE,E";      
-  }    
-  ::gate [type = "gate"] {
+  text-dx: -20;
+  text-placements: "S,N,W,E";
+      [label="Gudjonson Trailhead: Parking and Trail Information"] {text-placements: E; text-dx: 25;}  
+      [label="Reflection Lake Trailhead: Parking and Trail Information"] {text-placements: W,S; text-dx: -25;}  
+      [label="Cedar Lake Trailhead: Parking and Trail Information"] {text-placements: W,S; text-dx: -25;}  
+      [label="CBT Trailhead: Parking and Trail Information"] {text-placements: E; text-dx: 25;}  
+  }
+    ::gate [type = "gate"] {
   marker-width:20;
   marker-opacity:0.6;  
   marker-file: url(assets/barrier/gate3.svg);
@@ -104,8 +109,6 @@
   text-wrap-width: 50;
   text-wrap-before: true;
   text-placement-type: simple;
-  text-dy: -15;
-  text-placements: "S,N,NE,E";      
   }    
   ::lake [type = "lake"] {
   text-name:'[label]';
@@ -139,7 +142,7 @@
       [zoom=17] {text-size: 10; }
       [zoom=18] {text-size: 11; }    
   text-fill: #888;     
-  text-wrap-width: 50;
+  text-wrap-width: 60;
   text-wrap-before: true;
   text-placement-type: simple;
   text-dy: -15;
