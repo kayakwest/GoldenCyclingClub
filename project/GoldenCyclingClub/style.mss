@@ -10,10 +10,9 @@ Map {
     background-color: #fff;
 }
 #buildings [zoom > 14][ {
-  line-color:#2b2b2b;
-  line-opacity:0.2;
-  polygon-opacity:0.2;
-  polygon-fill:#ccc;
+  building-fill-opacity:0.2;
+  building-fill:#ccc;
+  building-height: 5;
 	[zoom > 15][name!="Golden Hospital"]::text{ 
     text-name:'[name]';
     text-face-name: 'Verdana Regular';
@@ -139,8 +138,7 @@ Map {
 }
 
 #dem_color {
-  raster-opacity:0.4;
-  raster-comp-op: multiply;
+  raster-opacity:0.1;
   
 }
 

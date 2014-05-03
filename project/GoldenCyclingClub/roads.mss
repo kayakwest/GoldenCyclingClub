@@ -10,7 +10,7 @@
                   line-color:@roadgrey;
                   line-cap: round; 
     			  text-name:[name];
-                  text-face-name:'Open Sans Regular';
+                  text-face-name: 'Verdana Regular';
                   text-placement:line;
                   text-fill:#888;
                   text-halo-fill:#000;
@@ -28,7 +28,7 @@
                   line-color:@roadgrey;
                   line-cap: round;
     			  text-name:[name];
-                  text-face-name:'Open Sans Regular';
+                  text-face-name: 'Verdana Regular';
                   text-placement:line;
                   text-fill:#888;
                   text-halo-fill:#000;
@@ -175,17 +175,17 @@
     	}   
 		::labels [type!="path"] [zoom > 13]{
     		text-name:[name];
-            text-face-name:'Open Sans Regular';
+            text-face-name: 'Verdana Regular';
             text-placement:line;
             text-fill:#888;
             text-halo-fill:#000;
             text-halo-radius:0;
-            text-min-distance:100;
+            text-min-distance:200;
             text-size:9;
      		}         
 		::labels [type="trunk"][zoom > 11][zoom < 14]{
     		text-name:[name];
-            text-face-name:'Open Sans Regular';
+            text-face-name: 'Verdana Regular';
             text-placement:line;
             text-fill:#888;
             text-halo-fill:#000;
@@ -195,7 +195,7 @@
      		}    
 		::labels [type="primary"][zoom > 11][zoom < 14]{
     		text-name:[name];
-            text-face-name:'Open Sans Regular';
+            text-face-name: 'Verdana Regular';
             text-placement:line;
             text-fill:#888;
             text-halo-fill:#000;

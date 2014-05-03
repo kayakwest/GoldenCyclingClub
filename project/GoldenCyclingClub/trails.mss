@@ -42,7 +42,7 @@
             [zoom=18] {text-size: 14; }       
         text-placement: line;
         text-dy: 8;
-        text-max-char-angle-delta: 15;
+        text-max-char-angle-delta: 20;
         text-min-distance:100;               
       }
       ::dash {
@@ -152,16 +152,23 @@
     text-placements: "S,N,NE,E";
 }
 #dividers [zoom > 13][zoom < 16]{
+	::case {
+		line-width: 3;
+		line-opacity: 0.5;    
+		line-color: #D1DFDB;
+		}  
       ::dash {
-        line-color: #ff851a;
+        line-color: #e4a3b0;
         line-width: 1;
         line-dasharray: 1, 1;     
     	}
         ::label1 {
     	text-name: [label1];
-        text-face-name: 'Verdana Regular';
-        text-fill: #ff851a;
-    	text-opacity: 0.8;          
+        text-face-name: 'Verdana Bold';
+        text-fill: #e4a3b0;
+    	text-halo-fill: #D1DFDB;
+    	text-halo-radius: 1;        
+    	text-opacity: 1;          
         text-size: 8;
         text-placement: line;
         text-dy: -5;
@@ -171,9 +178,11 @@
     	}
         ::label2 {
     	text-name: [label2];
-        text-face-name: 'Verdana Regular';
-        text-fill: #ff851a;
-    	text-opacity: 0.8;    
+        text-face-name: 'Verdana Bold';
+        text-fill: #e4a3b0;
+    	text-halo-fill: #D1DFDB;
+    	text-halo-radius: 1;    
+    	text-opacity: 1;    
         text-size: 8;
         text-placement: line;
         text-dy: 5;
@@ -183,17 +192,24 @@
     	}  
 }  
 #dividers [zoom > 15]{
+	::case {
+		line-width: 3;
+		line-opacity: 0;    
+		line-color: #D1DFDB;
+		}    
       ::dash {
-        line-color: #ff851a;
-        line-width: 2;
+        line-color: #e4a3b0;
+        line-width: 3;
         line-dasharray: 1, 1;     
     	}
         ::label1 {
     	text-name: [label1];
-        text-face-name: 'Verdana Regular';
-        text-fill: #ff851a;
-    	text-opacity: 0.8;   
-        text-size: 10;
+        text-face-name: 'Verdana Bold';
+        text-fill: #e4a3b0;
+    	text-halo-fill: #D1DFDB;
+    	text-halo-radius: 1;
+    	text-opacity: 1;   
+        text-size: 12;
         text-placement: line;
         text-dy: -7;
         text-max-char-angle-delta: 15;
@@ -202,10 +218,12 @@
     	}
         ::label2 {
     	text-name: [label2];
-        text-face-name: 'Verdana Regular';
-        text-fill: #ff851a;
-    	text-opacity: 0.8;        
-        text-size: 10;
+        text-face-name: 'Verdana Bold';
+        text-fill: #e4a3b0;
+    	text-halo-fill: #D1DFDB;
+    	text-halo-radius: 1;    
+    	text-opacity: 1;        
+        text-size: 12;
         text-placement: line;
         text-dy: 7;
         text-max-char-angle-delta: 15;
