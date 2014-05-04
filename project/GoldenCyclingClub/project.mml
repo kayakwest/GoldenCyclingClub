@@ -14,11 +14,11 @@
   "interactivity": {
     "layer": "gcc-trails",
     "template_teaser": "{{{name}}} -  {{{rating}}}",
-    "template_full": "Name - {{{name}}}\nRating - {{{rating}}}\nLength - {{{km}}}\nArea - {{{maparea}}} ",
+    "template_full": "Name - {{{name}}}\nRating - {{{rating}}}\nLength - {{{distance}}}\nArea - {{{maparea}}} ",
     "fields": [
       "name",
       "rating",
-      "km",
+      "distance",
       "maparea"
     ],
     "template_location": ""

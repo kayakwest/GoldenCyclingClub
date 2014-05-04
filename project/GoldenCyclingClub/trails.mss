@@ -42,7 +42,7 @@
             [zoom=18] {text-size: 14; }       
         text-placement: line;
         text-dy: 8;
-        text-max-char-angle-delta: 20;
+        text-max-char-angle-delta: 30;
         text-min-distance:100;               
       }
       ::dash {

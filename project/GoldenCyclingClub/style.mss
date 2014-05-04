@@ -2,7 +2,7 @@
 @roadgrey: #fff;
 @roadgrey2: #e6e6e6;
 @find: #c00e0e;
-@rivers: #69D2E7;
+@rivers: #97d7e3;
 @pond: #A7DBD8;
 
 Map {
@@ -72,7 +72,7 @@ Map {
 }
 
 #rivers {
-  polygon-opacity:0.4;
+  polygon-opacity: 1;
   polygon-fill: @rivers;
 }
 
