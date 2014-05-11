@@ -158,14 +158,14 @@
 		line-color: #D1DFDB;
 		}  
       ::dash {
-        line-color: #e4a3b0;
+        line-color: #e9627d;
         line-width: 1;
         line-dasharray: 1, 1;     
     	}
         ::label1 {
     	text-name: [label1];
         text-face-name: 'Verdana Bold';
-        text-fill: #e4a3b0;
+        text-fill: #e9627d;
     	text-halo-fill: #D1DFDB;
     	text-halo-radius: 1;        
     	text-opacity: 1;          
@@ -179,7 +179,7 @@
         ::label2 {
     	text-name: [label2];
         text-face-name: 'Verdana Bold';
-        text-fill: #e4a3b0;
+        text-fill: #e9627d;
     	text-halo-fill: #D1DFDB;
     	text-halo-radius: 1;    
     	text-opacity: 1;    
@@ -198,14 +198,14 @@
 		line-color: #D1DFDB;
 		}    
       ::dash {
-        line-color: #e4a3b0;
+        line-color: #e9627d;
         line-width: 3;
         line-dasharray: 1, 1;     
     	}
         ::label1 {
     	text-name: [label1];
         text-face-name: 'Verdana Bold';
-        text-fill: #e4a3b0;
+        text-fill: #e9627d;
     	text-halo-fill: #D1DFDB;
     	text-halo-radius: 1;
     	text-opacity: 1;   
@@ -219,7 +219,7 @@
         ::label2 {
     	text-name: [label2];
         text-face-name: 'Verdana Bold';
-        text-fill: #e4a3b0;
+        text-fill: #e9627d;
     	text-halo-fill: #D1DFDB;
     	text-halo-radius: 1;    
     	text-opacity: 1;        

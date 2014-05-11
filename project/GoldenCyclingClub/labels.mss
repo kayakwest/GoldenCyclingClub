@@ -154,18 +154,17 @@
   marker-transform: translate(0,0);
   marker-file: url(assets/tourist/information2.svg);
   marker-allow-overlap:false;  
-  marker-fill: #E4A3B0;   
-  marker-line-color: #E4A3B0;
+  marker-fill: #e9627d;   
+  marker-line-color: #e9627d;
   text-name:'[label]';
   text-face-name: 'Verdana Bold';
   	text-size: 8;
       [zoom=16] {text-size: 9; }
       [zoom=17] {text-size: 10; }
       [zoom=18] {text-size: 11; }    
-  text-fill: #E4A3B0;
+  text-fill: #e9627d;
   text-opacity: 1;    
-  text-halo-fill: #D1DFDB;
-  text-halo-radius: 1;        
+  text-halo-radius: 1;         
   text-wrap-width: 40;
   text-wrap-before: true;
   text-placement-type: simple;
@@ -176,7 +175,7 @@
   marker-width:18;
       [zoom>16] {marker-width: 30; }      
   marker-opacity:1;  
-  marker-fill: #e4a3b0;
+  marker-fill: #e9627d;
   marker-transform: translate(0,0);   
   marker-file: url(assets/direction/downright.svg);
   marker-allow-overlap:true;    
@@ -186,10 +185,9 @@
       [zoom=16] {text-size: 9; }
       [zoom=17] {text-size: 10; }
       [zoom=18] {text-size: 11; }
-  text-fill: #e4a3b0;
-  text-opacity: 1;      
-  text-halo-fill: #D1DFDB;
-  text-halo-radius: 1;     
+  text-fill: #e9627d;
+  text-opacity: 1;    
+  text-halo-radius: 1;         
   text-wrap-width: 50;
             [zoom=16] {text-wrap-width: 60; }   
             [zoom=17] {text-wrap-width: 70; }  
@@ -205,7 +203,7 @@
   marker-width:20;
       [zoom>16] {marker-width: 30; }          
   marker-opacity:1;  
-  marker-fill: #e4a3b0;
+  marker-fill: #e9627d;
   marker-transform: translate(0,0);
   marker-file: url(assets/direction/left.svg);
   marker-allow-overlap:true;    
@@ -216,10 +214,9 @@
       [zoom=16] {text-size: 9; }
       [zoom=17] {text-size: 10; }
       [zoom=18] {text-size: 11; }
-  text-fill: #e4a3b0;
-  text-opacity: 1;   
-  text-halo-fill: #D1DFDB;
-  text-halo-radius: 1;     
+  text-fill: #e9627d;
+  text-opacity: 1;       
+  text-halo-radius: 1;         
   text-wrap-width: 50;
   text-wrap-before: true;
   text-placement-type: simple;
@@ -230,7 +227,7 @@
   marker-width:25;
       [zoom>16] {marker-width: 30; }          
   marker-opacity:1;  
-  marker-fill: #e4a3b0;
+  marker-fill: #e9627d;
   marker-transform: translate(0,0);
   marker-file: url(assets/direction/right.svg);
   marker-allow-overlap:true;    
@@ -240,10 +237,9 @@
       [zoom=16] {text-size: 9; }
       [zoom=17] {text-size: 10; }
       [zoom=18] {text-size: 11; }
-  text-fill: #e4a3b0;
-  text-opacity: 1;    
-  text-halo-fill: #D1DFDB;
-  text-halo-radius: 1;     
+  text-fill: #e9627d;
+  text-opacity: 1;       
+  text-halo-radius: 1;         
   text-wrap-width: 50;
   text-wrap-before: true;
   text-placement-type: simple;
@@ -256,7 +252,7 @@
   marker-width:15;
       [zoom>16] {marker-width: 25; }              
   marker-opacity:1;  
-  marker-fill: #e4a3b0;    
+  marker-fill: #e9627d;    
   marker-transform: translate(0,0);
   marker-file: url(assets/direction/up.svg);
   marker-allow-overlap:true;    
@@ -266,9 +262,7 @@
       [zoom=16] {text-size: 9; }
       [zoom=17] {text-size: 10; }
       [zoom=18] {text-size: 11; }
-  text-fill: #e4a3b0;
-  text-opacity: 1;     
-  text-halo-fill: #D1DFDB;
+  text-fill: #e9627d;
   text-halo-radius: 1;     
   text-wrap-width: 50;
   text-wrap-before: true;
@@ -282,7 +276,7 @@
   marker-width:18;
       [zoom>16] {marker-width: 30; }              
   marker-opacity:1;  
-  marker-fill: #e4a3b0;    
+  marker-fill: #e9627d;    
   marker-transform: translate(0,0);
   marker-file: url(assets/direction/upleft.svg);
   marker-allow-overlap:true;    
@@ -292,10 +286,9 @@
       [zoom=16] {text-size: 9; }
       [zoom=17] {text-size: 10; }
       [zoom=18] {text-size: 11; }
-  text-fill: #e4a3b0;
+  text-fill: #e9627d;
   text-opacity: 1;   
-  text-halo-fill: #D1DFDB;
-  text-halo-radius: 1;     
+  text-halo-radius: 1;    
   text-wrap-width: 40;
   text-wrap-before: true;
   text-placement-type: simple;
@@ -308,7 +301,7 @@
   marker-width:16;
       [zoom>16] {marker-width: 27; }              
   marker-opacity:1;  
-  marker-fill: #e4a3b0;    
+  marker-fill: #e9627d;    
   marker-transform: translate(0,0);
   marker-file: url(assets/direction/downleft.svg);
   marker-allow-overlap:true;    
@@ -318,10 +311,9 @@
       [zoom=16] {text-size: 9; }
       [zoom=17] {text-size: 10; }
       [zoom=18] {text-size: 11; }
-  text-fill: #e4a3b0;
-  text-opacity: 1;    
-  text-halo-fill: #D1DFDB;
-  text-halo-radius: 1;     
+  text-fill: #e9627d;
+  text-opacity: 1;
+  text-halo-radius: 1;    
   text-wrap-width: 40;
   text-wrap-before: true;
   text-placement-type: simple;
@@ -334,7 +326,7 @@
   marker-width:18;
       [zoom>16] {marker-width: 28; }              
   marker-opacity:1;  
-  marker-fill: #e4a3b0;    
+  marker-fill: #e9627d;    
   marker-transform: translate(0,0);
   marker-file: url(assets/direction/twoway2.svg);
   marker-allow-overlap:true;    
@@ -344,10 +336,9 @@
       [zoom=16] {text-size: 9; }
       [zoom=17] {text-size: 10; }
       [zoom=18] {text-size: 11; }
-  text-fill: #e4a3b0;
-  text-opacity: 1;      
-  text-halo-fill: #D1DFDB;
-  text-halo-radius: 1;     
+  text-fill: #e9627d;
+  text-opacity: 1; 
+  text-halo-radius: 1;    
   text-wrap-width: 20;
   text-wrap-before: true;
   text-placement-type: simple;
@@ -360,7 +351,7 @@
   marker-width:15;
       [zoom>16] {marker-width: 25; }              
   marker-opacity:1;  
-  marker-fill: #e4a3b0;    
+  marker-fill: #e9627d;    
   marker-transform: translate(0,0);
   marker-file: url(assets/direction/twoway2b.svg);
   marker-allow-overlap:true;    
@@ -370,10 +361,9 @@
       [zoom=16] {text-size: 9; }
       [zoom=17] {text-size: 10; }
       [zoom=18] {text-size: 11; }
-  text-fill: #e4a3b0;
-  text-opacity: 1;    
-  text-halo-fill: #D1DFDB;
-  text-halo-radius: 1;     
+  text-fill: #e9627d;
+  text-opacity: 1;   
+  text-halo-radius: 1;    
   text-wrap-width: 40;
             [zoom=17] {text-wrap-width: 50; }  
             [zoom=18] {text-wrap-width: 60; }     
@@ -388,7 +378,7 @@
   marker-width:17;
       [zoom>16] {marker-width: 28; }              
   marker-opacity:1;  
-  marker-fill: #e4a3b0;
+  marker-fill: #e9627d;
   marker-transform: translate(0,0);
   marker-file: url(assets/direction/twoway3.svg);
   marker-allow-overlap:true;    
@@ -398,10 +388,9 @@
       [zoom=16] {text-size: 9; }
       [zoom=17] {text-size: 10; }
       [zoom=18] {text-size: 11; }
-  text-fill: #e4a3b0;
+  text-fill: #e9627d;
   text-opacity: 1;   
-  text-halo-fill: #D1DFDB;
-  text-halo-radius: 1;     
+  text-halo-radius: 1;    
   text-wrap-width: 50;
   text-wrap-before: true;
   text-placement-type: simple;

@@ -59,7 +59,12 @@ Map {
 }
 
 #waterway[type!="river"]{
-  line-width:0.2;
+        [zoom=13] {line-width: 0.2;}
+        [zoom=14] {line-width: 0.4;}
+        [zoom=15] {line-width: 0.6;}
+        [zoom=16] {line-width: 0.8;}
+        [zoom=17] {line-width: 1;}
+        [zoom=18] {line-width: 1;}  
   line-color:@rivers;
 }
 #waterway[type="river"]{
