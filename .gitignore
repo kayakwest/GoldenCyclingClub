@@ -4,3 +4,4 @@ app.db
 cache/**
 export/**
 project/GoldenCyclingClub/rasters/**
+project/GoldenCyclingClub/db/golden-slnet.sqlite

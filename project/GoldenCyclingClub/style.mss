@@ -57,7 +57,24 @@ Map {
     line-dasharray: 1, 24;
   	}
 }
-
+#waterway-slnet{
+        [zoom=13] {line-width: 0.2;}
+        [zoom=14] {line-width: 0.4;}
+        [zoom=15] {line-width: 1;}
+        [zoom=16] {line-width: 1.4;}
+        [zoom=17] {line-width: 2;}
+        [zoom=18] {line-width: 2.4;}  
+  line-color:@rivers;
+}
+#waterway-slnet{
+  text-name: [name_1];
+  text-min-path-length: 300;  
+  text-face-name: 'Arial Italic';
+  text-fill: #80ABC4;
+  text-size: 10;
+  text-dy: 8;  
+  text-placement: line;
+}
 #waterway[type!="river"]{
         [zoom=13] {line-width: 0.2;}
         [zoom=14] {line-width: 0.4;}
@@ -149,4 +166,10 @@ Map {
 
 #dem-slope {
   raster-opacity:1;
+}
+
+
+#slnet {
+  line-width:1;
+  line-color:#168;
 }

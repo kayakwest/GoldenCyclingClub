@@ -166,7 +166,7 @@
     	text-name: [label1];
         text-face-name: 'Verdana Bold';
         text-fill: #e9627d;
-    	text-halo-fill: #D1DFDB;
+    	text-halo-fill: #fff;
     	text-halo-radius: 1;        
     	text-opacity: 1;          
         text-size: 8;
@@ -180,7 +180,7 @@
     	text-name: [label2];
         text-face-name: 'Verdana Bold';
         text-fill: #e9627d;
-    	text-halo-fill: #D1DFDB;
+    	text-halo-fill: #fff;
     	text-halo-radius: 1;    
     	text-opacity: 1;    
         text-size: 8;
@@ -206,7 +206,7 @@
     	text-name: [label1];
         text-face-name: 'Verdana Bold';
         text-fill: #e9627d;
-    	text-halo-fill: #D1DFDB;
+    	text-halo-fill: #fff;
     	text-halo-radius: 1;
     	text-opacity: 1;   
         text-size: 12;
@@ -220,7 +220,7 @@
     	text-name: [label2];
         text-face-name: 'Verdana Bold';
         text-fill: #e9627d;
-    	text-halo-fill: #D1DFDB;
+    	text-halo-fill: #fff;
     	text-halo-radius: 1;    
     	text-opacity: 1;        
         text-size: 12;
@@ -231,3 +231,8 @@
    		text-allow-overlap: true;    
     	}    
 }  
+//#gcc-trails [built = 0]{
+//        line-color: #e9627d;
+//        line-width: 3;
+//        line-dasharray: 1, 1;     
+ // }
