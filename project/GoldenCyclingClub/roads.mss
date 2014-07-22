@@ -62,6 +62,18 @@
           	line-cap: round 
 			}
     	}      
+		::tertiary [type="tertiary"]{
+			::case {
+			line-width: 2;
+			line-color:@roadgrey2;
+			line-cap: round;
+    		}
+    		::fill {
+			line-width: 2;
+          	line-color:@roadgrey;
+          	line-cap: round;        
+			}
+    	}      
 		::service [type="service"]{
 			::case {
 			line-width: 5;
@@ -86,18 +98,7 @@
           	line-cap: round;        
 			}
     	}      
-		::tertiary [type="tertiary"]{
-			::case {
-			line-width: 3;
-			line-color:@roadgrey2;
-			line-cap: round;
-    		}
-    		::fill {
-			line-width: 2;
-          	line-color:@roadgrey;
-          	line-cap: round;        
-			}
-    	}  
+
 		::unclassified [type="unclassified"]{
 			::case {
 			line-width: 3;
