@@ -1,19 +1,19 @@
 #annomanual [zoom > 13]{
-  ::campgrounds [type = "campground"] {
-  marker-width:20;
-  marker-opacity:0.7;  
-  marker-file: url(assets/accommodation/camping2.svg);
-  marker-allow-overlap:true;
-  text-name:'[label]';
-  text-face-name: 'Verdana Regular';
-  text-size: 8;
-  text-fill: #888;    
-  text-wrap-width: 50;
-  text-wrap-before: true;
-  text-placement-type: simple;
-  text-dy: 15;
-  text-placements: "S,N,NE,E";    
-  }
+ //  ::campgrounds [type = "campground"] {
+ //  marker-width:20;
+ //  marker-opacity:0.7;  
+ //  marker-file: url(assets/accommodation/camping2.svg);
+ //  marker-allow-overlap:true;
+  // text-name:'[label]';
+ //  text-face-name: 'Verdana Regular';
+ //  text-size: 8;
+ //  text-fill: #888;    
+  // text-wrap-width: 50;
+ //  text-wrap-before: true;
+ //  text-placement-type: simple;
+ //  text-dy: 15;
+ //  text-placements: "S,N,NE,E";    
+ // }
   ::bikeshop [type = "bikeshop"] {
   marker-width:20;
   marker-opacity:0.6;  
@@ -25,7 +25,7 @@
   text-size: 8;
       [zoom=16] {text-size: 9; }
       [zoom=17] {text-size: 10; }
-      [zoom=18] {text-size: 11; }        
+      [zoom>=18] {text-size: 11; }        
   text-fill: #888;      
   text-wrap-width: 60;
   text-wrap-before: true;
@@ -34,24 +34,24 @@
   text-dy: 15;    
   text-placements: "E";  }  
   }  
-  ::hospital [type = "hospital"] {
-  marker-width:30;
-  marker-opacity:0.6;  
-  marker-file: url(assets/health/hospital_emergency3.svg);
-  marker-allow-overlap:true;   
-  text-name:'[label]';
-  text-face-name: 'Verdana Regular';
-  	text-size: 8;
-      [zoom=16] {text-size: 9; }
-      [zoom=17] {text-size: 10; }
-      [zoom=18] {text-size: 11; }  
-  text-fill: #888;      
-  text-wrap-width: 60;
-  text-wrap-before: true;
-  text-placement-type: simple;
-  text-dy: 20;
-  text-placements: "S,N,NE,E";      
-  }    
+//  ::hospital [type = "hospital"] {
+//  marker-width:30;
+//  marker-opacity:0.6;  
+//  marker-file: url(assets/health/hospital_emergency3.svg);
+//  marker-allow-overlap:true;   
+//  text-name:'[label]';
+//  text-face-name: 'Verdana Regular';
+//  	text-size: 8;
+//      [zoom=16] {text-size: 9; }
+//      [zoom=17] {text-size: 10; }
+//      [zoom=18] {text-size: 11; }  
+//  text-fill: #888;      
+//  text-wrap-width: 60;
+//  text-wrap-before: true;
+//  text-placement-type: simple;
+//  text-dy: 20;
+//  text-placements: "S,N,NE,E";      
+//  }    
   ::smalltrailhead [type = "smalltrailhead"] {
   marker-width:20;
   marker-opacity:0.8;  
@@ -62,7 +62,7 @@
   	text-size: 8;
       [zoom=16] {text-size: 9; }
       [zoom=17] {text-size: 10; }
-      [zoom=18] {text-size: 11; } 
+      [zoom>=18] {text-size: 11; } 
   text-fill: #2b2b2b;    
   text-wrap-width: 40;
   text-wrap-before: true;
@@ -80,7 +80,7 @@
   	text-size: 9;
       [zoom=16] {text-size: 10; }
       [zoom=17] {text-size: 12; }
-      [zoom=18] {text-size: 13; }      
+      [zoom>=18] {text-size: 13; }      
 //  text-opacity:0.6;
   text-fill: #2b2b2b;    
   text-wrap-width: 90;
@@ -104,25 +104,25 @@
   	text-size: 8;
       [zoom=16] {text-size: 9; }
       [zoom=17] {text-size: 10; }
-      [zoom=18] {text-size: 11; }
+      [zoom>=18] {text-size: 11; }
   text-fill: #888;      
   text-wrap-width: 50;
   text-wrap-before: true;
   text-placement-type: simple;
   }    
-  ::lake [type = "lake"] {
-  text-name:'[label]';
-  text-face-name: 'Arial Italic';
-  text-fill: #80ABC4;    
-  	text-size: 10;
-      [zoom=16] {text-size: 12; }
-      [zoom=17] {text-size: 12; }
-      [zoom=18] {text-size: 13; } 
-  text-wrap-width: 60;
-  text-wrap-before: true;
-  text-placement-type: simple;
-  text-placements: "S,N,NE,E";      
-  }      
+//  ::lake [type = "lake"] {
+//  text-name:'[label]';
+//  text-face-name: 'Arial Italic';
+//  text-fill: #80ABC4;    
+//  	text-size: 10;
+//      [zoom=16] {text-size: 12; }
+//      [zoom=17] {text-size: 12; }
+//      [zoom=18] {text-size: 13; } 
+//  text-wrap-width: 60;
+//  text-wrap-before: true;
+//  text-placement-type: simple;
+//  text-placements: "S,N,NE,E";      
+//  }      
   ::radio [type = "radio"] {
   marker-width:20;
   marker-opacity:0.6;
@@ -140,7 +140,7 @@
   	text-size: 8;
       [zoom=16] {text-size: 9; }
       [zoom=17] {text-size: 10; }
-      [zoom=18] {text-size: 11; }    
+      [zoom>=18] {text-size: 11; }    
   text-fill: #888;     
   text-wrap-width: 60;
   text-wrap-before: true;
@@ -161,7 +161,7 @@
   	text-size: 8;
       [zoom=16] {text-size: 9; }
       [zoom=17] {text-size: 10; }
-      [zoom=18] {text-size: 11; }    
+      [zoom>=18] {text-size: 11; }    
   text-fill: #e9627d;
   text-opacity: 1;    
   text-halo-radius: 1;         
@@ -182,9 +182,9 @@
   text-name:'[label]';
   text-face-name: 'Verdana Bold';
   	text-size: 8;
-      [zoom=16] {text-size: 9; }
-      [zoom=17] {text-size: 10; }
-      [zoom=18] {text-size: 11; }
+      [zoom=16] {text-size: 10; }
+      [zoom=17] {text-size: 11; }
+      [zoom>=18] {text-size: 11; }
   text-fill: #e9627d;
   text-opacity: 1;    
   text-halo-radius: 1;         
@@ -211,9 +211,9 @@
   text-name:'[label]';
   text-face-name: 'Verdana Bold';
   	text-size: 8;
-      [zoom=16] {text-size: 9; }
-      [zoom=17] {text-size: 10; }
-      [zoom=18] {text-size: 11; }
+      [zoom=16] {text-size: 10; }
+      [zoom=17] {text-size: 11; }
+      [zoom>=18] {text-size: 11; }
   text-fill: #e9627d;
   text-opacity: 1;       
   text-halo-radius: 1;         
@@ -234,9 +234,9 @@
   text-name:'[label]';
   text-face-name: 'Verdana Bold';
   	text-size: 8;
-      [zoom=16] {text-size: 9; }
-      [zoom=17] {text-size: 10; }
-      [zoom=18] {text-size: 11; }
+      [zoom=16] {text-size: 10; }
+      [zoom=17] {text-size: 11; }
+      [zoom>=18] {text-size: 11; }
   text-fill: #e9627d;
   text-opacity: 1;       
   text-halo-radius: 1;         
@@ -259,9 +259,9 @@
   text-name:'[label]';
   text-face-name: 'Verdana Bold';
   	text-size: 8;
-      [zoom=16] {text-size: 9; }
-      [zoom=17] {text-size: 10; }
-      [zoom=18] {text-size: 11; }
+      [zoom=16] {text-size: 10; }
+      [zoom=17] {text-size: 11; }
+      [zoom>=18] {text-size: 11; }
   text-fill: #e9627d;
   text-halo-radius: 1;     
   text-wrap-width: 50;
@@ -269,7 +269,7 @@
   text-placement-type: simple;
   text-dx: 12;
       [zoom=17] {text-dx: 20; }
-      [zoom=18] {text-dx: 30; }    
+      [zoom>=18] {text-dx: 30; }    
   text-placements: "E";      
   }    
   ::directionupleft [type = "directionupleft"][zoom > 14]  {
@@ -283,9 +283,9 @@
   text-name:'[label]';
   text-face-name: 'Verdana Bold';
   	text-size: 8;
-      [zoom=16] {text-size: 9; }
-      [zoom=17] {text-size: 10; }
-      [zoom=18] {text-size: 11; }
+      [zoom=16] {text-size: 10; }
+      [zoom=17] {text-size: 11; }
+      [zoom>=18] {text-size: 11; }
   text-fill: #e9627d;
   text-opacity: 1;   
   text-halo-radius: 1;    
@@ -294,7 +294,7 @@
   text-placement-type: simple;
   text-dy: 12;
       [zoom=17] {text-dy: 20; }
-      [zoom=18] {text-dy: 30; }    
+      [zoom>=18] {text-dy: 30; }    
   text-placements: "S";      
   }    
   ::directiondownleft [type = "directiondownleft"][zoom > 14]  {
@@ -308,9 +308,9 @@
   text-name:'[label]';
   text-face-name: 'Verdana Bold';
   	text-size: 8;
-      [zoom=16] {text-size: 9; }
-      [zoom=17] {text-size: 10; }
-      [zoom=18] {text-size: 11; }
+      [zoom=16] {text-size: 10; }
+      [zoom=17] {text-size: 11; }
+      [zoom>=18] {text-size: 11; }
   text-fill: #e9627d;
   text-opacity: 1;
   text-halo-radius: 1;    
@@ -319,7 +319,7 @@
   text-placement-type: simple;
   text-dy: 15;
       [zoom=17] {text-dy: 20; }
-      [zoom=18] {text-dy: 30; }       
+      [zoom>=18] {text-dy: 30; }       
   text-placements: "N";      
   }     
   ::directiontwoway1 [type = "directiontwoway1"][zoom > 14]  {
@@ -333,9 +333,9 @@
   text-name:'[label]';
   text-face-name: 'Verdana Bold';
   	text-size: 8;
-      [zoom=16] {text-size: 9; }
-      [zoom=17] {text-size: 10; }
-      [zoom=18] {text-size: 11; }
+      [zoom=16] {text-size: 10; }
+      [zoom=17] {text-size: 11; }
+      [zoom>=18] {text-size: 11; }
   text-fill: #e9627d;
   text-opacity: 1; 
   text-halo-radius: 1;    
@@ -344,7 +344,7 @@
   text-placement-type: simple;
   text-dx: 15;
       [zoom=17] {text-dx: 25; }
-      [zoom=18] {text-dx: 30; }    
+      [zoom>=18] {text-dx: 30; }    
   text-placements: "E";      
   }   
   ::directiontwoway2 [type = "directiontwoway2"][zoom > 14]  {
@@ -358,20 +358,20 @@
   text-name:'[label]';
   text-face-name: 'Verdana Bold';
   	text-size: 8;
-      [zoom=16] {text-size: 9; }
-      [zoom=17] {text-size: 10; }
-      [zoom=18] {text-size: 11; }
+      [zoom=16] {text-size: 10; }
+      [zoom=17] {text-size: 11; }
+      [zoom>=18] {text-size: 11; }
   text-fill: #e9627d;
   text-opacity: 1;   
   text-halo-radius: 1;    
   text-wrap-width: 40;
             [zoom=17] {text-wrap-width: 50; }  
-            [zoom=18] {text-wrap-width: 60; }     
+            [zoom>=18] {text-wrap-width: 60; }     
   text-wrap-before: true;
   text-placement-type: simple;
   text-dx: 15;
             [zoom=17] {text-dx: 25; }  
-            [zoom=18] {text-dx: 35; } 
+            [zoom>=18] {text-dx: 35; } 
   text-placements: "E";      
   }     
   ::directiontwoway3 [type = "directiontwoway3"][zoom > 14]  {
@@ -385,9 +385,9 @@
   text-name:'[label]';
   text-face-name: 'Verdana Bold';
   	text-size: 8;
-      [zoom=16] {text-size: 9; }
-      [zoom=17] {text-size: 10; }
-      [zoom=18] {text-size: 11; }
+      [zoom=16] {text-size: 10; }
+      [zoom=17] {text-size: 11; }
+      [zoom>=18] {text-size: 11; }
   text-fill: #e9627d;
   text-opacity: 1;   
   text-halo-radius: 1;    
@@ -396,7 +396,7 @@
   text-placement-type: simple;
   text-dx: 15;
             [zoom=17] {text-dx: 25; }  
-            [zoom=18] {text-dx: 35; }     
+            [zoom>=18] {text-dx: 35; }     
   text-placements: "E";      
   }       
 }

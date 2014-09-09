@@ -12,8 +12,10 @@
             [zoom=14] {text-size: 8; }           
             [zoom=15] {text-size: 10; }           
             [zoom=16] {text-size: 12; }             
-            [zoom=17] {text-size: 13; }   
-            [zoom=18] {text-size: 14; }          
+            [zoom=17] {text-size: 14; }   
+            [zoom=18] {text-size: 14; }    
+            [zoom=19] {text-size: 14; }     
+            [zoom=20] {text-size: 14; }           
         text-placement: line;
         text-dy: 8;
         text-max-char-angle-delta: 15;
@@ -38,8 +40,10 @@
             [zoom=14] {text-size: 8; }           
             [zoom=15] {text-size: 10; }           
             [zoom=16] {text-size: 12; }             
-            [zoom=17] {text-size: 13; }   
-            [zoom=18] {text-size: 14; }       
+            [zoom=17] {text-size: 14; }   
+            [zoom=18] {text-size: 14; }      
+            [zoom=19] {text-size: 14; }     
+            [zoom=20] {text-size: 14; }            
         text-placement: line;
         text-dy: 8;
         text-max-char-angle-delta: 30;
@@ -64,8 +68,10 @@
             [zoom=14] {text-size: 8; }           
             [zoom=15] {text-size: 10; }           
             [zoom=16] {text-size: 12; }             
-            [zoom=17] {text-size: 13; }   
+            [zoom=17] {text-size: 14; }   
             [zoom=18] {text-size: 14; }   
+            [zoom=19] {text-size: 14; }     
+            [zoom=20] {text-size: 14; }            
         text-placement: line;
         text-dy: -8;
         text-max-char-angle-delta: 40;
@@ -90,8 +96,10 @@
             [zoom=14] {text-size: 8; }           
             [zoom=15] {text-size: 10; }           
             [zoom=16] {text-size: 12; }             
-            [zoom=17] {text-size: 13; }   
-            [zoom=18] {text-size: 14; }    
+            [zoom=17] {text-size: 14; }   
+            [zoom=18] {text-size: 14; }   
+            [zoom=19] {text-size: 14; }     
+            [zoom=20] {text-size: 14; }            
         text-placement: line;
         text-dy: 6;
    	    text-max-char-angle-delta: 15;
@@ -111,7 +119,8 @@
   marker-allow-overlap:true;
 }
 #gcc-maparea [zoom = 12]{
-    polygon-opacity:0.1;
+   polygon-opacity:0.2;
+   polygon-comp-op: overlay;
     polygon-fill:#15758B;
   	line-color: #888;
     line-width: 0.4;
@@ -135,7 +144,8 @@
   marker-allow-overlap:true;
 }
 #gcc-maparea [zoom = 13]{
-    polygon-opacity:0.1;
+    polygon-opacity:0.2;
+    polygon-comp-op: overlay;
     polygon-fill:#15758B;
   	line-color: #888;
     line-width: 0.4;
