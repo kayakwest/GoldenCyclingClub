@@ -1,9 +1,9 @@
 {
   "bounds": [
-    -117.035,
-    51.2108,
-    -116.8441,
-    51.3227
+    -117.0065,
+    51.2179,
+    -116.8736,
+    51.3143
   ],
   "center": [
     -116.9487,
@@ -28,7 +28,6 @@
   "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
   "Stylesheet": [
     "style.mss",
-    "roads.mss",
     "trails.mss",
     "labels.mss"
   ],
