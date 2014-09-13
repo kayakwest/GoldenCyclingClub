@@ -170,20 +170,20 @@
       line-join: round;
       line-width: 1;
       [type='footway'] {
-        line-color: #bba;
+        line-color: #3FAF86;
         line-dasharray: 2,1;
       }
       [type='path'] {
-        line-color: #987;
+        line-color: #3FAF86;
         line-dasharray: 6,2;
       }
       [type='hiking'] {
-        line-color: #c97;
+        line-color: #3FAF86;
         line-dasharray: 2,1;
         line-opacity: 0;        
       }
       [type='trail'] {
-        line-color: #c97;
+        line-color: #3FAF86;
         line-dasharray: 6,2;
         line-opacity: 0;                
       }

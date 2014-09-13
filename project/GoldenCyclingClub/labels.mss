@@ -14,26 +14,26 @@
  //  text-dy: 15;
  //  text-placements: "S,N,NE,E";    
  // }
-  ::bikeshop [type = "bikeshop"] {
-  marker-width:20;
-  marker-opacity:0.6;  
-  marker-file: url(assets/sport/bike-shop3.svg);
-  marker-allow-overlap:true;
-     [zoom>14]{
-  text-name:'[label]';
-  text-face-name: 'Verdana Regular';
-  text-size: 8;
-      [zoom=16] {text-size: 9; }
-      [zoom=17] {text-size: 10; }
-      [zoom>=18] {text-size: 11; }        
-  text-fill: #888;      
-  text-wrap-width: 60;
-  text-wrap-before: true;
-  text-placement-type: simple;
-  text-dx: 15;
-  text-dy: 15;    
-  text-placements: "E";  }  
-  }  
+//  ::bikeshop [type = "bikeshop"] {
+//  marker-width:20;
+//  marker-opacity:0.6;  
+//  marker-file: url(assets/sport/bike-shop3.svg);
+//  marker-allow-overlap:true;
+//     [zoom>14]{
+//  text-name:'[label]';
+//  text-face-name: 'Verdana Regular';
+//  text-size: 8;
+//      [zoom=16] {text-size: 9; }
+//      [zoom=17] {text-size: 10; }
+//      [zoom>=18] {text-size: 11; }        
+//  text-fill: #888;      
+//  text-wrap-width: 60;
+//  text-wrap-before: true;
+//  text-placement-type: simple;
+//  text-dx: 15;
+//  text-dy: 15;    
+//  text-placements: "E";  }  
+//  }  
 //  ::hospital [type = "hospital"] {
 //  marker-width:30;
 //  marker-opacity:0.6;  
@@ -64,6 +64,8 @@
       [zoom=17] {text-size: 10; }
       [zoom>=18] {text-size: 11; } 
   text-fill: #2b2b2b;    
+  text-halo-radius: 1;
+  text-halo-fill: #fff;     
   text-wrap-width: 40;
   text-wrap-before: true;
   text-placement-type: simple;
@@ -83,6 +85,8 @@
       [zoom>=18] {text-size: 13; }      
 //  text-opacity:0.6;
   text-fill: #2b2b2b;    
+  text-halo-radius: 1;
+  text-halo-fill: #fff;    
   text-wrap-width: 90;
   text-wrap-before: true;
   text-placement-type: simple;
@@ -94,22 +98,22 @@
       [label="Cedar Lake Trailhead: Parking and Trail Information"] {text-placements: W,S; text-dx: -25;}  
       [label="CBT Trailhead: Parking and Trail Information"] {text-placements: E; text-dx: 25;}  
   }
-    ::gate [type = "gate"] {
-  marker-width:20;
-  marker-opacity:0.6;  
-  marker-file: url(assets/barrier/gate3.svg);
-  marker-allow-overlap:true;    
-  text-name:'[label]';
-  text-face-name: 'Verdana Regular';
-  	text-size: 8;
-      [zoom=16] {text-size: 9; }
-      [zoom=17] {text-size: 10; }
-      [zoom>=18] {text-size: 11; }
-  text-fill: #888;      
-  text-wrap-width: 50;
-  text-wrap-before: true;
-  text-placement-type: simple;
-  }    
+//    ::gate [type = "gate"] {
+//  marker-width:20;
+//  marker-opacity:0.6;  
+//  marker-file: url(assets/barrier/gate3.svg);
+//  marker-allow-overlap:true;    
+//  text-name:'[label]';
+//  text-face-name: 'Verdana Regular';
+//  	text-size: 8;
+//      [zoom=16] {text-size: 9; }
+//      [zoom=17] {text-size: 10; }
+//      [zoom>=18] {text-size: 11; }
+//  text-fill: #888;      
+//  text-wrap-width: 50;
+//  text-wrap-before: true;
+//  text-placement-type: simple;
+//  }    
 //  ::lake [type = "lake"] {
 //  text-name:'[label]';
 //  text-face-name: 'Arial Italic';
@@ -130,24 +134,24 @@
   marker-file: url(assets/poi/tower_communications7.svg);
   marker-allow-overlap:true;       
   }    
-  ::restrictedaccess [type = "restrictedaccess"] {
-  marker-width:20;
-  marker-opacity:0.6;  
-  marker-file: url(assets/barrier/gate3.svg);
-  marker-allow-overlap:true;    
-  text-name:'[label]';
-  text-face-name: 'Verdana Regular';
-  	text-size: 8;
-      [zoom=16] {text-size: 9; }
-      [zoom=17] {text-size: 10; }
-      [zoom>=18] {text-size: 11; }    
-  text-fill: #888;     
-  text-wrap-width: 60;
-  text-wrap-before: true;
-  text-placement-type: simple;
-  text-dy: -15;
-  text-placements: "S,N,NE,E";      
-  }     
+//  ::restrictedaccess [type = "restrictedaccess"] {
+//  marker-width:20;
+//  marker-opacity:0.6;  
+//  marker-file: url(assets/barrier/gate3.svg);
+//  marker-allow-overlap:true;    
+//  text-name:'[label]';
+//  text-face-name: 'Verdana Regular';
+//  	text-size: 8;
+//      [zoom=16] {text-size: 9; }
+//      [zoom=17] {text-size: 10; }
+//      [zoom>=18] {text-size: 11; }    
+//  text-fill: #888;     
+//  text-wrap-width: 60;
+//  text-wrap-before: true;
+//  text-placement-type: simple;
+//  text-dy: -15;
+//  text-placements: "S,N,NE,E";      
+//  }     
   ::trailcond [type = "trailcond"][zoom > 14]{
   marker-width:20;
   marker-opacity:1;  
